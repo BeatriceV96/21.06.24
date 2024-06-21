@@ -27,10 +27,13 @@ namespace Contest
 
         static void Primes(int upperBound)
         {
+            // Itera da 0 fino al limite superiore specificato
             for (int i = 0; i < upperBound; i++)
             {
+                // Controlla se il numero corrente è primo
                 if (IsPrime(i))
                 {
+                    // Se il numero è primo, lo stampa a console
                     Console.WriteLine(i);
                 }
             }
